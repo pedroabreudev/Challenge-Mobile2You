@@ -7,7 +7,7 @@ class RetrofitClient {
 
     companion object {
         private var retrofit: Retrofit? = null
-        private const val BASE_URL = "https://api.themoviedb.org"
+        private const val BASE_URL = "https://api.themoviedb.org/3/"
 
         fun getInstance() : Retrofit{
             if(retrofit == null){
