@@ -5,13 +5,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import br.com.pedroabreudev.desafio_mobile2you.R
-import br.com.pedroabreudev.desafio_mobile2you.service.model.Movie
 import br.com.pedroabreudev.desafio_mobile2you.service.model.SimilarMovie
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.movie_item.view.*
 
-class MovieAdapter (private val movies: List<SimilarMovie>) :
-        RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
+class SimilarAdapter (private val movies: List<SimilarMovie>) :
+        RecyclerView.Adapter<SimilarAdapter.MovieViewHolder>() {
 
     class MovieViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
