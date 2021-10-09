@@ -3,7 +3,7 @@ package br.com.pedroabreudev.desafio_mobile2you.service.model
 import com.google.gson.annotations.SerializedName
 
 data class SimilarMovieList(
-    val resultsSimilarMovie: List<SimilarMovie>
+    val results: List<SimilarMovie>
 )
 
 data class SimilarMovie(

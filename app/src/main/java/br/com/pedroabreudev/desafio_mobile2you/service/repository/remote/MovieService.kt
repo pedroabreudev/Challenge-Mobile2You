@@ -13,7 +13,7 @@ interface MovieService {
     @GET("/movie/$movie_id?api_key=$api_key")
     fun getMovieDetails(): Call<Movie>
 
-    @GET("/movie/$movie_id/similar?api_key=$api_key")
+    @GET("movie/$movie_id/similar?api_key=$api_key")
     fun getSimilarMovie(): Call<SimilarMovieList>
 
 
