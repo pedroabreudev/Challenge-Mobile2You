@@ -16,3 +16,7 @@ Experiência com o Desafio: Sou grato a Mobile2You por me oportunizar a fazer es
 Mas se for possível, gostaria de recebeu um feedback sobre o meu desempenho, sobre o que e como devo melhorar, e quais as melhores maneiras de seguir o meu aprendizado, para essa jornada de desenvolvedor mobile android.
 
 
+<h1 align="center">
+<img alt="Movie" title="#Movie" src="./app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="100px">
+
+
