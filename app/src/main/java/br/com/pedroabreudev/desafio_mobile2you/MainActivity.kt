@@ -3,6 +3,7 @@ package br.com.pedroabreudev.desafio_mobile2you
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import br.com.pedroabreudev.desafio_mobile2you.service.model.Movie
 import br.com.pedroabreudev.desafio_mobile2you.service.model.SimilarMovie
 import br.com.pedroabreudev.desafio_mobile2you.service.model.SimilarMovieList
 import br.com.pedroabreudev.desafio_mobile2you.service.repository.remote.MovieService
@@ -12,6 +13,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+
+private const val BASE_URL_IMAGE = "https://image.tmdb.org/t/p/original/"
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

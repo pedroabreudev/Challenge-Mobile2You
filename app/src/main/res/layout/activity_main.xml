@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/filme" />
 
     <TextView
         android:id="@+id/title_Movie"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toStartOf="@+id/icon_like"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
         app:layout_constraintTop_toBottomOf="@id/image_movie"
-        tools:text="The Very Best of Johnny Deep" />
+        android:text="God's Not Dead" />
 
     <ImageView
         android:id="@+id/icon_like"
@@ -74,7 +74,7 @@
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@id/icon_like_status"
         app:layout_constraintTop_toBottomOf="@id/title_Movie"
-        tools:text="5.5K de Likes" />
+        android:text="701 Likes" />
 
     <ImageView
         android:id="@+id/icon_popularity"
@@ -95,7 +95,7 @@
         android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@id/text_like_status"
         app:layout_constraintStart_toEndOf="@id/icon_popularity"
-        tools:text="3 of 10 Watched" />
+        android:text="3 of 10 Watched" />
 
     <ScrollView
         android:id="@+id/scroll_movies"
