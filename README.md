@@ -17,6 +17,6 @@ Mas se for possível, gostaria de recebeu um feedback sobre o meu desempenho, so
 
 
 <h1 align="center">
-<img alt="Movie" title="#Movie" src="./app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="100px">
+<img alt="Movie" title="#Movie" src="./app/src/main/res/drawable/app_image.png" width="100px">
 
 
